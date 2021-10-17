@@ -9,7 +9,7 @@ end
 go
 create table G_Jasy_cabecera_factura  
 (
-	cf_codigoFactura int identity (1,1) not null,
+	cf_codigoFactura int not null,
 	cf_codigo_cliente int not null,
 	cf_fecha datetime not null,
 	cf_total money not null,
